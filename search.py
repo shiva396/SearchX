@@ -12,8 +12,8 @@ def search_api(query, pages=int(RESULT_COUNT/10)):
     for i in range(0, pages):
         start = i*10+1
         url = SEARCH_URL.format(
-            key=" AIzaSyBMi5eyTGhzQyMpwRn0MqXF5UbOQivyqSg",
-            cx='a624c680c594f4f83',
+            key="PLACE THE KEY",
+            cx='SEARCH ID',
             query=quote_plus(query),
             start=start
         )
